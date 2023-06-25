@@ -1,10 +1,11 @@
 import { ContainerFooter } from './styled.jsx'
+import { H4 } from '../../styledGlobal.jsx'
 
 function Footer (){
     return(
         <>
         <ContainerFooter>
-            <h4>Oi! Eu moro no footer!</h4>
+            <H4>Oi! Eu moro no footer!</H4>
         </ContainerFooter>
         </>
     )

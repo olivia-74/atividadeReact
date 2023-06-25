@@ -1,10 +1,10 @@
-import "./components/style.css"
 import Header from './components/Header/Header.js';
 import Nav from './components/Nav/Nav.js';
 import Home from './components/Page/Home.js';
 // import Card from './components/Card/Card.js';
 import Footer from './components/Footer/Footer.js';
-import StyledGlobal, { ContainerMain, TelaInteira } from "./styledGlobal";
+// import styledGlobal, { ContainerMain, TelaInteira } from "./styledGlobal";
+import CreateStyledGlobal, {ContainerMain, TelaInteira} from './styledGlobal.jsx'
 
 function App() {
 
@@ -14,7 +14,8 @@ function App() {
 
   return (
     <>
-    <StyledGlobal/>
+    {/* <styledGlobal/> */}
+    <CreateStyledGlobal/>
     <TelaInteira>
       <Header/>
       <ContainerMain>

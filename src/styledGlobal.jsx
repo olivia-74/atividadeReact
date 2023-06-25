@@ -14,7 +14,7 @@ export const TelaInteira = styled.div`
     flex-direction: column;
 `
 
-export const ContainerMain = styled.div`
+export const ContainerMain = styled.main`
     min-height: 95vh;
     display: flex;
 `
