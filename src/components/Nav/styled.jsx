@@ -8,5 +8,5 @@ export const MenuVertical = styled.div`
 
 export const BotoesMenu = styled.div`
     list-style-type: none;
-    padding-right: 10px
+    /* padding-right: 10px */
 `
